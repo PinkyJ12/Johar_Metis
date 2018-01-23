@@ -1,5 +1,5 @@
 # Project1 @ Metis: MTA Data Analysis
-PUBLISHED ON January 22, 2018
+Published On January 22, 2018
 
 ## A Short and Productive Week:
 
@@ -27,11 +27,11 @@ Grand Central Station is undoubtedly a consistently heavily trafficked area. It 
 
 In the end my team came up with the following list of recommended stations:
 
-34th St-Penn
-23rd St
-42nd St Grand Central
-42nd St Times Sq
-Fulton St
-Canal St
+** 34th St-Penn **
+** 23rd St **
+** 42nd St Grand Central **
+** 42nd St Times Sq **
+** Fulton St **
+** Canal St **
 
 Overall , this week was not less than roller coaster ride. And no doubt there was so much to learn . Looking forward to learn more with the support of instructors, the TAs, and the rest of the class. 
