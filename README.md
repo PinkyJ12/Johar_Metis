@@ -1,3 +1,3 @@
 # Johar_Metis
 
-My first Metis Project Blog
+[FirstProject_Blog](https://github.com/PinkyJ12/Johar_Metis/blob/master/Project%201/MTA_Blog.md)
