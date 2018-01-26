@@ -20,7 +20,7 @@ With the objective of gaining support for WTWY’s cause, our team sought to tar
 
 With the idea of the gala would take place in early summer, it seemed ideal to look at the most recent trends in the months leading up to the event.So, we scrape and clean data which spanned for 3 months from March-May of 2017. Then, to get a broad perspective of subway traffic trends we were able to group entries by station and look at the aggregate entries for each station during the full period of the data.
 
-![Fig 1](/images/Entries_total.png)
+![Fig 1](https://github.com/PinkyJ12/Johar_Metis/blob/master/Project%201/images/Entries_total.png)
 
 
 From the aggregate data, we wanted to look at the most trafficked stations only. Fig 1. demonstrates our results for the top 15 stations with the most entries. Most of these stations are concentrated in the Midtown area of Manhattan, with a smaller cluster in lower Manhattan near the financial district and a few others anomalies which are much farther north, though still in Manhattan. As we compared these preliminary results with our data from Build in NYC, it was clear that there was a good deal of overlap between heavily trafficked subway stops and clusters of tech companies. In fact, most of our top 15 stops were located within the 4.5 mile region cited as having the highest concentration of tech companies.
