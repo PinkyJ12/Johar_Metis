@@ -3,7 +3,7 @@ Published On January 22, 2018
 
 ## A Short and Productive Week:
 
-I started my first week of this intense yet exciting 12-week Data Science Bootcamp with my first project in Metis. Right away, we were divided into groups of 2 to start working on this Data Exploratory project which was due in next 3 days. I could feel the intense pressure I was going through......Thanks to all who wrote those uplifted quotes on the wall in Metis premisis :simple_smile:.
+I started my first week of this intense yet exciting 12-week Data Science Bootcamp with my first project in Metis. Right away, we were divided into groups of 2 to start working on this Data Exploratory project which was due in next 3 days. I could feel the intense pressure I was going through......Thanks to all who wrote those uplifted quotes on the wall in Metis premisis😊.
 
 The objective of the project was to make recommendation to a hypothetical client “Women Tech, Women Yes” on how they should allocate their volunteers for their upcoming fund raising event, the WTWY Gala, so that they could optimize collection of signatures and gala attendance.And the week concluded with the presentation of our cohort's first project, Project Benson.
 
@@ -20,7 +20,7 @@ With the objective of gaining support for WTWY’s cause, our team sought to tar
 
 With the idea of the gala would take place in early summer, it seemed ideal to look at the most recent trends in the months leading up to the event.So, we scrape and clean data which spanned for 3 months from March-May of 2017. Then, to get a broad perspective of subway traffic trends we were able to group entries by station and look at the aggregate entries for each station during the full period of the data.
 
-![Fig 1](/images/Entries_total.png)
+![Fig 1](https://github.com/PinkyJ12/Johar_Metis/blob/master/Project%201/images/Entries_total.png)
 
 
 From the aggregate data, we wanted to look at the most trafficked stations only. Fig 1. demonstrates our results for the top 15 stations with the most entries. Most of these stations are concentrated in the Midtown area of Manhattan, with a smaller cluster in lower Manhattan near the financial district and a few others anomalies which are much farther north, though still in Manhattan. As we compared these preliminary results with our data from Build in NYC, it was clear that there was a good deal of overlap between heavily trafficked subway stops and clusters of tech companies. In fact, most of our top 15 stops were located within the 4.5 mile region cited as having the highest concentration of tech companies.
@@ -28,12 +28,12 @@ From the aggregate data, we wanted to look at the most trafficked stations only.
 
 Grand Central Station is undoubtedly a consistently heavily traffic area which is located within our 4.5 mile region mentioned before. Additionally it is located just blocks from 10016 and 10018 in midtown, two areas on the top 10 list for highest tech funded zip codes. For these reasons, we decided to use Grand Central as a test case for further analysis. One further point of consideration for our team was that different stations might have varying levels of traffic by day of the week or hours of the day (with the latter being more likely). In Grand Central, March-May of 2017 in particular, weekdays dominated over weekends, with relatively consistent levels through the week and a peak on Thursdays.
 
-![Fig 2](/images/GRND_CNTRL.png) 
+![Fig 2](https://github.com/PinkyJ12/Johar_Metis/blob/master/Project%201/images/GRND_CNTRL.png) 
 
 After examining traffic on an hourly basis it was found that late evenings were most trafficked in Grand Central Station, with noticeable peaks in early morning and early evening hours being more consistent with rush hours in the city.
  
-![fig 3](/images/GRND_CNTRL_hourly.png) 
-![fig 4](/images/Line_chrt.png)
+![fig 3](https://github.com/PinkyJ12/Johar_Metis/blob/master/Project%201/images/GRND_CNTRL_hourly.png) 
+![fig 4](https://github.com/PinkyJ12/Johar_Metis/blob/master/Project%201/images/Line_chrt.png)
 
 ## Conclusions
 
