@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Churn</title>
+  <style>
+  body{
+    font-family: sans-serif;
+  }
+  .button {
+    background-color: LightPink;
+    border: none;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .animal-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 10px 10px 0px #eee;
+    width: 300px;
+    margin: auto;
+  }
+  </style>
+
+</head>
+
+<body align="center">
+
+  <h3>Enter various Customer's features and we will tell you the probability of customer getting churn.</h3>
+
+  <form action="/predict_Churn_proba/" method="post">
+
+    <div class="animal-card" align="center">
+
+      Tenure (No.of months):
+      <br>
+        <input type="text" name="Tenure">
+      <br>
+      
+      Senior Citizen (1/0):
+      <br>
+        <input type="text" name="Senior Citizen">
+      <br>
+
+      InternetService If FiberOptic (1/0):
+      <br>
+        <input type="text" name="InternetService_FiberOptic">
+      <br>
+      
+      Contract TwoYear (1/0):
+      <br>
+      	<input type="text" name="Contract_TwoYear">
+      <br>
+
+      Payment Method If ElectronicCheck (1/0):
+      <br>
+        <input type="text" name="PaymentMethod_ElectronicCheck">
+      <br>
+
+      Monthly Charges (in numbers):
+      <br>
+        <input type="text" name="MonthlyCharges">
+      <br>
+      
+      Paperless Billing Yes (1/0):
+      <br>
+        <input type="text" name="PaperlessBilling_Yes">
+      <br>
+      
+      OnlineSecurity If Yes (1/0):
+      <br>
+        <input type="text" name="OnlineSecurity_Yes">
+      <br>
+
+    </div>
+
+  <br>
+
+  <button type="submit" class="button">
+    What it predicts?
+  </button>
+  </form>
+
+  <br>
+
+  {% if message %}
+  <p class="button">{{message}}</p>
+  {% endif %}
+
+</body>
+</html>
